@@ -20,6 +20,10 @@ class mathOperations:
     
 class otherClass(mathOperations):
 
+    def __init__(self, a, b, c):
+        super().__init__(a, b)
+        self.c = c
+
     def SUB(self):
-        return self.a - self.b
+        return self.a - self.b, self.c
     
