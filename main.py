@@ -10,6 +10,6 @@ res = mathOperations(2,55)
 print(res.ADD())
 
 
-res1 = otherClass(50,10)
+res1 = otherClass(50,10,50000)
 
 print(res1.SUB())
